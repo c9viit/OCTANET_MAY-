@@ -1,0 +1,61 @@
+body{
+    background-color:azure;
+    font-family: Arial, Helvetica, sans-serif ;
+    padding:0;
+    margin:0;
+    
+}
+header{
+    margin: 0;
+    padding:30px 0;
+    text-align: center;
+    background-color: rgb(38, 34, 34);
+    color: #f0f0f0;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/62c255e227c1c414d8942fb5/8e31ebd0-a2a5-480f-9f6b-902c798b72d5/Website_Header_Davidson.jpg);
+    height:200px;
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+nav{
+    background-color: #333;
+    color:#fff;
+    text-align: center;
+    padding:10px 0;
+
+}
+ nav ul{
+    list-style-type: none;
+    padding:0;
+}
+ nav li{
+    display: inline;
+    padding:20px
+}
+nav > ul > li > a{
+    text-decoration: none;
+    text-decoration-line: underline;
+    color:#f0f0f0
+
+}
+h1{
+    color:black;
+    text-align: center;
+}
+.container{
+    background-color: #fff;
+    max-width:1200px;
+    margin:20px auto;
+    padding:20px;
+    box-shadow:0 2px 4px rgba(0,0,0,0.2);
+}
+.menu-item{
+    margin:20px 0;
+    border:1px solid #ddd;
+    padding:10px;
+    border-radius: 5px;
+}
+
+footer{
+    display: block;
+    unicode-bidi: isolate;
+}
